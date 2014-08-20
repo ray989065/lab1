@@ -1,0 +1,100 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link rel = "stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="nav">
+      <div class="container">
+       
+            <ul class="pull-left">
+              <li><a href="index.html">
+                <img src="http://www.nekyo.net/Dawngate.png"> 
+            Libreria de Abs</a></li>
+              <li><a href="navegar.html">Navegar</a></li>
+            </ul>
+            <ul class="pull-right">
+              <li><a href="pedidos.html">Pedidos</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Soporte</a></li>
+            </ul>
+        
+      </div>
+    </div>
+        
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Libreria de Abs</h1>
+        <p>Seccion para agregar y pedir libros.</p>
+        <a href="index.html">Regresar a inicio</a>
+      </div>
+    </div>
+    
+    <div class ="formulario">
+        <div class ="container ">
+            
+            <h2>Seccion de pedidos</h2>
+            <p>Agregar libros que no esten en la lista para agregarlos a la seleccion especial en promocion.</p>
+            
+           <form role="form">
+            <div class="form-group">
+              <label for="autor">Autor</label>
+              <input type="autorid" class="form-control" id="autor" placeholder="escribe el nombre del autor" required>
+            </div>
+            <div class="form-group">
+              <label for="titulo">Titulo</label>
+              <input type="titulo" class="form-control" id="tituloid" placeholder="titulo del libro" required>
+            </div>
+            <div class="form-group">
+              <label for="año">Año</label>
+              <input type="año" class="form-control" id="añoid" placeholder="año de publicacion" required>
+            </div>
+              <div class="form-group">
+              <label for="precio">Precio</label>
+              <input type="precio" class="form-control" id="precioid" placeholder="precio del libro" required>
+            </div>
+              <div class="form-group">
+                <label for="area">Area</label>
+            <select class="form-control">
+                <option>Seleccionar area a la que pertenece el libro</option>
+                <option>Economia</option>
+                <option>Novelas</option>
+                <option>Literatura</option>
+                <option>Geografia</option>
+              </select>
+              </div>
+            <div class="form-group">
+              <label for="imagen">Portada</label>
+              <input type="file" id="portadaid">
+              <p class="help-block">subir imagen de la portada del libro en caso de tenerla.</p>
+            </div>
+            
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">Libro en ingles
+              </label>
+            </div>
+            <button id ="boton" type="submit" class="btn btn-default" formaction="datosEnviados.html"  >Enviar</button>
+            
+          </form>
+         
+          
+            
+        </div>
+        
+        
+        
+    
+    </div>
+    <footer>
+                
+                <p >Abs 2014 (c)</p>
+                
+        
+    </footer>
+        
+    </body>
+
+
+</html>
